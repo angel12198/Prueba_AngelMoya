@@ -13,6 +13,8 @@ public class Principal {
         ControladorVentanaEmpleado c = new ControladorVentanaEmpleado(v,e);
         v.setVisible(true);
         v.setLocationRelativeTo(null);
+        
+        System.out.println("Hola mundo")
     }
     
 }
